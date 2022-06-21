@@ -4,7 +4,7 @@
     "description": "Template for the WebSocket remote control task",
     "main": "index.js",
     "scripts": {
-        "start": "node ./index.js",
+        "start": "ts-node ./index.ts",
         "start:dev": "cross-env NODE_ENV=development nodemon",
         "start:prod": "cross-env NODE_ENV=production webpack && node dist/bundle.js",
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +14,7 @@
     "license": "ISC",
     "devDependencies": {
         "@types/node": "^18.0.0",
+        "@types/ws": "^8.5.3",
         "@typescript-eslint/eslint-plugin": "^5.29.0",
         "@typescript-eslint/parser": "^5.29.0",
         "cross-env": "^7.0.3",

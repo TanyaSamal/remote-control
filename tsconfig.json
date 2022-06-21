@@ -2,13 +2,18 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "target": "es6",
-    "module": "Node16",
+    "module": "esnext",
     "noImplicitAny": true,
     "moduleResolution": "Node",
     "skipLibCheck": true,
     "experimentalDecorators": true,
     "sourceMap": true,
     "outDir": "./dist"
+  },
+    "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
   },
   "include": ["src/**/*"],
   "exclude": [ "node_modules"]

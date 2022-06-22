@@ -1,4 +1,3 @@
-// import Jimp from 'jimp';
 import { httpServer } from './src/http_server/index';
 import { startBack } from './src/back/index';
 

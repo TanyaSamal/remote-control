@@ -5,7 +5,7 @@ const {
 } = process.env;
 
 module.exports = {
-  entry: 'index.ts',
+  entry: './index.ts',
   mode: NODE_ENV,
   target: 'node',
   devtool: 'source-map',
